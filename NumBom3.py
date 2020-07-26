@@ -5,7 +5,7 @@ import random
 numList = list(range(1,101))
 #print (numList)
 numBomb = random.choice(numList)
-print (numBomb)
+print (numBomb) #will print digi lenth only, make the game more funny.
 # Start main loop
 # Player 1 choose number 1, computer feedback. if not the Bomb, player 2 action.
 # program check user input and identify the number in proper range (liStart, liEnd) every time.
